@@ -35,4 +35,4 @@ En el presente ejercicio contamos con una base de datos en excel. Importaremos e
 
 Al terminar y correr el código, escribiremos en la consola el nombre en el que almacenamos el DataFrame, en este caso `frec_df` y obtendremos la tabla de frecuencias
 
-![img_tabla](https://github.com/alesantoscoz/Tareas-ISIL-creando-tabla-de-frecuencias/blob/main/img/Captura%20de%20pantalla%202023-05-15%20023826.png)
+![img_tabla](https://github.com/alesantoscoz/Tareas-ISIL-creando-tabla-de-frecuencias/blob/main/img/T-frec-carreras.png)
