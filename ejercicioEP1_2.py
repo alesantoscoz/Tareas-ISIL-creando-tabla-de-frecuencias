@@ -15,7 +15,7 @@ import pandas as pd
 # leer base de datos y guardarla en variable db (database)
 db = pd.read_excel('./Basededatos2023.xlsx')
 
-#Seleccionar una catrgoría y almacenarla en una variable
+#Seleccionar almacenarla en variable
 frec_nroh = pd.value_counts(db["Número de hermanos"])
 #Almacenamos frecuencia en un dataframe
 frec_df = pd.DataFrame(frec_nroh)
