@@ -5,6 +5,7 @@
 * [1. Preámbulo](#1-preámbulo)
 * [2. Tabla de frecuencias](#2-tabla-de-frecuencias)
 * [3. Ejercicio](#3-ejercicio)
+* [4. Resultados](#4-resultados)
 
 ***
 
@@ -30,4 +31,8 @@ La Frecuencia Relativa (`hi`) es el cociente entre la Frecuencia Absoluta y el n
 
 En el presente ejercicio contamos con una base de datos en excel. Importaremos esta base de datos en python y elegiremos una variable categórica para elaborar la tabla de frecuencias incluyendo columnas de Frecuencia Absoluta (`fi`), Frecuencia Relativa (`hi %`), Frecuencia Absoluta Acumulada (`Fi`) y Frecuencia Relativa Acumulada (`Hi %`)
 
+## 4. Resultados
 
+Al terminar y correr el código, escribiremos en la consola el nombre en el que almacenamos el DataFrame, en este caso `frec_df` y obtendremos la tabla de frecuencias
+
+![img_tabla](https://github.com/alesantoscoz/Tareas-ISIL-creando-tabla-de-frecuencias/blob/main/img/Captura%20de%20pantalla%202023-05-15%20023826.png)
