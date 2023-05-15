@@ -16,7 +16,7 @@ frec_df = pd.DataFrame(frec_crr)
 frec_df.columns = ["fi"]
 
 #Creamos la columna de frec. rlativa yrealizamos las operaciones numéricas para calcularla
-frec_df["hi"] = 100*frec_df["fi"]/len(db)
+frec_df["hi %"] = 100*frec_df["fi"]/len(db)
 
 #Obtenemos las frecuencias acumuladas
 #guardamos los valores en una variable
@@ -37,9 +37,9 @@ frec_df["Fi"] = acum
 #Lo mismo aplicamos para acumular frec. relativas
 acum_hi = []
 acumhi_val = 0 #le damos un valo inicial de 0
-hi_val = frec_df["hi"].values
+hi_val = frec_df["hi %"].values
 for i in hi_val:
     acumhi_val = acumhi_val + i
     acum_hi.append(acumhi_val)
 
-frec_df["Hi"] = acum_hi
+frec_df["Hi %"] = acum_hi
